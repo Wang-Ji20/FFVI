@@ -1,0 +1,6 @@
+CompileFlags:
+  Add: [-Wall, -Werror, -std=c++17]
+
+Diagnostics:
+  ClangTidy:
+    Add: [modernize*, abseil-*, bugprone-*, performance-*, portability-*, readability-*, concurrency-*]
