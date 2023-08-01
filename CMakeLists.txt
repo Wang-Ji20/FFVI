@@ -46,7 +46,7 @@ endif()
 
 # include path
 set(FFVI_INCLUDE_DIRECTORY ${PROJECT_SOURCE_DIR}/include)
-set(FFVI_THIRD_PARTY_INCLUDE_DIRECTORIES ${PROJECT_SOURCE_DIR}/third_party/abseil)
+set(FFVI_THIRD_PARTY_INCLUDE_DIRECTORIES ${PROJECT_SOURCE_DIR}/third_party/abseil ${PROJECT_SOURCE_DIR}/third_party/yyjson/src)
 include_directories(${FFVI_INCLUDE_DIRECTORY} ${FFVI_THIRD_PARTY_INCLUDE_DIRECTORIES})
 
 add_subdirectory(lib)

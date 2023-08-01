@@ -1,10 +1,12 @@
 add_subdirectory(main)
+add_subdirectory(common)
 
 set(
   THIRD_PARTY_DEPENDENCIES
   absl::base
   absl::log
   absl::check
+  yyjson
 )
 
 add_library(
